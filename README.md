@@ -30,32 +30,7 @@ The project is inspired by *Interaction-Matrix-based Magnetic Materials Discover
 
 ---
 
-## 🧩 Project Architecture
 
-Gain-Structure-Engineering/
-│
-├── notebooks/
-│   └── Hierarchical_Gain_Structure_Engineering.ipynb
-│
-├── data/
-│   ├── magnetic_materials_raw.csv
-│   ├── meta_targets.csv
-│   ├── interaction_descriptors.npy
-│
-├── results/
-│   ├── lightgbm_gain_model.pkl
-│   ├── descriptors.npy
-│
-├── images/
-│   ├── feature_importance.png
-│   ├── strain_gain_plot.png
-│   ├── pca_visualization.png
-│
-├── FM_DMSE.pdf                 # Final project report
-├── requirements.txt
-└── README.md
-
----
 
 ## 🧱 Methodology
 
@@ -69,18 +44,7 @@ Gain-Structure-Engineering/
 
 ---
 
-## 📊 Example Visualizations
 
-**Feature Importance**  
-![Feature Importance](images/feature_importance.png)
-
-**Predicted Gain vs Strain**  
-![Gain vs Strain](images/strain_gain_plot.png)
-
-**Parallel Coordinate View of Predicted Properties**  
-![Parallel Coordinate View of Predicted Properties](images/Parallel_Coordinate_View_of_Predicted_Properties.png)
-
----
 
 ## 🧮 Model Performance
 
